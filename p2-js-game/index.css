@@ -1,0 +1,98 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-image: url(images/mystery-riddle.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
+
+button {
+    color: black;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-back-button {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#header-back-button:hover {
+    transform: scale(1.2);
+}
+
+/* home */
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.home-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#home-title-img {
+    width: 400px;
+    height: 400px;
+}
+.home-buttons {
+    width: 100%;
+}
+
+.home-button-1,
+.home-button-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-buttons .play-button,
+.how-to-play-button {
+    width: 350px;
+    height: 90px;
+    background-color: darkorange;
+    box-shadow: 0 4px 8px rgb(110, 211, 27);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.play-button:hover,
+.how-to-play-button:hover {
+    background-color: rgb(248, 213, 38);
+    color: black;
+    cursor: pointer;
+}
